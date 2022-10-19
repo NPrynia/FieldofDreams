@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+
+    <ImageView
+        android:id="@+id/imageViewField"
+        android:layout_width="257dp"
+        android:layout_height="189dp"
+        android:onClick="clickRoll"
+        android:rotation="12"
+        android:rotationX="0"
+        android:rotationY="0"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/field" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="11dp"
+        android:layout_height="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47"
+        app:srcCompat="@drawable/arrow" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn"
+                android:text="а"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn2"
+                android:text="б"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn3"
+                android:text="в"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn4"
+                android:text="г"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn5"
+                android:text="д"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="btnclick6"
+                android:text="е"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn7"
+                android:text="ё"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn8"
+                android:text="ж"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn9"
+                android:text="з"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn10"
+                android:text="и"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn11"
+                android:text="й"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn12"
+                android:text="к"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn13"
+                android:text="л"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn14"
+                android:text="м"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn15"
+                android:text="н"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn16"
+                android:text="о"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn17"
+                android:text="п"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn18"
+                android:text="р"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn19"
+                android:text="с"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn20"
+                android:text="т"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn21"
+                android:text="у"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn22"
+                android:text="ф"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn23"
+                android:text="х"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn24"
+                android:text="ч"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn25"
+                android:text="ц"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn26"
+                android:text="ш"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn27"
+                android:text="щ"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn28"
+                android:text="ы"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn29"
+                android:text="ь"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn30"
+                android:text="ъ"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn31"
+                android:text="э"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn32"
+                android:text="ю"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/blue"
+                android:onClick="clickBtn33"
+                android:text="я"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonGiveAnswer"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="clickAnswer"
+
+
+        android:text="Сказать слово"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRepeatQeust"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="btnClickReapeatQeust"
+        android:text="Повторить вопрос"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></Button>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/blue"
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView11"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView12"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView13"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView14"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView15"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="102dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewField"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/player1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="94dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="165dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/player2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="77dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="537dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/player3" />
+
+    <TextView
+        android:id="@+id/scorePlayer1"
+        android:layout_width="78dp"
+        android:layout_height="21dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewField"
+        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/scorePlayer3"
+        android:layout_width="77dp"
+        android:layout_height="22dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewField"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/scorePlayer2"
+        android:layout_width="81dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="506dp"
+        android:layout_marginEnd="144dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/buttonBlock"
+        android:layout_width="728dp"
+        android:layout_height="105dp"
+        android:alpha="0"
+        android:visibility="visible"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnBlockRoll"
+        android:layout_width="265dp"
+        android:layout_height="213dp"
+        android:alpha="0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
